@@ -1,0 +1,18 @@
+
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+#  datasource:
+#    driver-class-name: org.mariadb.jdbc.Driver
+    #url: jdbc:mariadb://localhost:3306/{DB?}?useUnicode=true&characterEncoding=utf8
+    #username: {????}
+    #password: {????}
+    #hikari:
+    #  connection-timeout: 3000
+    #  maximum-pool-size: 10
+
+#mybatis:
+#  mapper-locations: classpath:mapper/**/*.xml
+#  configuration:
+#    map-underscore-to-camel-case: true
+#  type-aliases-package: com.slsosft.core.domain
