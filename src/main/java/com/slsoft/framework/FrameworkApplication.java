@@ -21,5 +21,4 @@ public class FrameworkApplication {
     public String hello(@Parameter(description = "메세지", example = "test") @RequestParam(value = "name", defaultValue = "World") String name) {
       return String.format("Hello %s!", name);
     }
-
 }
